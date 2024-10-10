@@ -8,9 +8,10 @@
 </head>
 <body>
 
-    <div class="container">
-        <h1>Futuristic Shopping Cart</h1>
-        
+  <div class="container">
+    <h1>Futuristic Shopping Cart</h1>
+    
+    <div class="main-content">
         <div class="products">
             <div class="product">
                 <h2 id="Cyber Gadget">Cyber Gadget</h2>
@@ -25,15 +26,18 @@
             <div class="product">
                 <h2>Smart Glasses</h2>
                 <p>Price: $299</p>
-                <button id="Smart Glasses" class="add-to-cart" onclick="add()">Add to Cart</button>
+                <button id="Smart Glasses" class="add-to-cart">Add to Cart</button>
             </div>
         </div>
 
-        <h2>Your Cart</h2>
-        <div id="cart" class="cart"></div>
-        <div id="total" class="total">Total: $0</div>
-        <button id="clear-cart" class="clear-cart">Clear Cart</button>
+        <div class="cart-container">
+            <h2>Your Cart</h2>
+            <div id="cart" class="cart"></div>
+            <div id="total" class="total">Total: $0</div>
+            <button id="clear-cart" class="clear-cart">Clear Cart</button>
+        </div>
     </div>
+</div>
 
     <script src="js/app.js"></script>
 </body>
